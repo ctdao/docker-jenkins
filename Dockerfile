@@ -1,5 +1,5 @@
-FROM jenkins:1.642.1
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+FROM jenkins:latest
+MAINTAINER Truc C. Dao <truc.c.dao@gmail.com>
 
 # Suppress apt installation warnings
 ENV DEBIAN_FRONTEND=noninteractive
