@@ -22,7 +22,7 @@ ARG DOCKER_COMPOSE=1.6.2
 
 # Install base packages
 RUN apt-get update -y && \
-    apt-get install apt-transport-https curl python-dev python-setuptools gcc make libssl-dev -y && \
+    apt-get install apt-transport-https curl python-dev python-setuptools gcc make libssl-dev libffi-dev -y && \
     easy_install pip
 
 # Install Docker Engine
